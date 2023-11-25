@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Masai Doctor Records</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>HOSPITAL - DOCTOR RECORDS</h1>
+    <form id="doctorForm">
+      <label>Doctor-Name</label><input placeholder="Name" type="text" id="name" />
+      <label>Doctor-ID</label><input placeholder="Doctor ID" type="text" id="doctor_id" />
+      <label>Specialization</label><select id="specialization">
+       <label>Specialization</label> <option value="">Select Specialization</option>
+        <option value="Dermatologist">Dermatologist</option>
+        <option value="Dentist">Dentist</option>
+        <option value="Gynecologist">Gynecologist</option>
+      </select>
+      
+      <label>Experience</label><input placeholder="Experience" type="number" id="experience" />
+      <label>EmailAddress</label><input placeholder="Email" type="email" id="email" />
+      <label>MobileNumber</label><input placeholder="Mobile No." type="number" id="mobile" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Doctor ID</th>
+          <th>Specialization</th>
+          <th>Experience in Years</th>
+          <th>Email</th>
+          <th>Mobile No</th>
+          <th>Role</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody id="doctorRecords">
+       
+      </tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
